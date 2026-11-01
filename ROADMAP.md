@@ -27,24 +27,27 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 - [x] Accessibility, design systems and content design
 - [ ] Independent editorial review and a user-tested product case study
 
-## Phase 3 — Core product engineering (current)
+## Phase 3 — Core product engineering
 - [x] Frontend/backend boundaries, API contracts, and database fundamentals
 - [x] Architecture styles and decision criteria
 - [x] Testing, performance, reliability, and maintainability foundations
 - [x] Authentication/authorization boundaries, billing concepts, and integrations
 - [ ] Independent editorial review and framework-specific tested examples
 
-## Phase 4 — AI engineering
-- [ ] LLM application patterns and model selection
-- [ ] Retrieval, RAG, agents, tools and orchestration
-- [ ] Evaluation, observability, safety and AI security
-- [ ] Inference, latency, cost and deployment
+## Phase 4 — AI engineering (guide set drafted; review and tested examples remain)
+- [x] LLM application patterns, non-AI baseline, model/hosting selection, and product boundaries
+- [x] Retrieval/RAG pipeline, data lifecycle, authorization, citations, and evaluation method
+- [x] Bounded tool-using workflows, permissions, human confirmation, and abuse testing
+- [x] Evaluation datasets, rollout, monitoring, latency/cost, and recovery guidance
+- [x] Hands-on RAG evaluation lab and reusable evaluation-plan template
+- [ ] Independent technical/editorial review and a tested reference implementation
 
-## Phase 5 — Secure delivery and operations
-- [ ] Threat modeling, privacy and secure development lifecycle
-- [ ] Cloud, networking, containers, CI/CD and IaC
-- [ ] Observability, incident response, backup and disaster recovery
-- [ ] Data operations, support and compliance basics
+## Phase 5 — Secure delivery and operations (guide set drafted; review and tested examples remain)
+- [x] Practical threat modeling, secure defaults, privacy boundaries, and standards
+- [x] Deployment-shape decisions, release pipeline, migration, rollback, and CI security
+- [x] Service indicators, observability, incident handling, backup and restore concepts
+- [x] Solo-friendly operating cadence and recovery priorities
+- [ ] Independent review, provider-specific tested walkthroughs, and a restore tabletop
 
 ## Phase 6 — Business and growth
 - [ ] Positioning, messaging, content and SEO/GEO
@@ -65,4 +68,3 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 
 ## Phase 9 — Optional discovery tooling
 Only after the documentation is useful and maintained: searchable catalogue, structured metadata, interactive decision trees, and an AI-assisted navigator that cites sources and exposes uncertainty.
-
