@@ -2,21 +2,23 @@
 
 The roadmap prioritizes a useful, trustworthy knowledge base over premature software or AI features. A phase is complete when its deliverables are usable and reviewed—not merely when folders exist.
 
-## Phase 0 — Repository foundation
-- [x] Brand, mission, principles and lifecycle map
-- [x] Information architecture and guide template
-- [x] Contribution, source-quality and licensing policies (license choice pending final confirmation)
-- [x] Initial opportunity-discovery templates
-- [ ] Publish logo source variants and finalized licenses
+## Phase 0 — Repository and editorial baseline
+- [x] Mission, principles, lifecycle map and information architecture
+- [x] Guide template, contribution process and source-evaluation policy
+- [x] Resolve project license split: educational text and diagrams CC BY 4.0; code MIT
+- [x] Add reader paths and explicitly distinguish topic maps from complete guides
+- [ ] Publish vector/source logo variants and confirm asset provenance
+- [ ] Decide whether to add a generated website or keep GitHub as the primary reader experience
 
-## Phase 1 — Opportunity intelligence
-- [ ] Problem signals and research methods
-- [ ] Customer interview guide and synthesis
-- [ ] Jobs to Be Done, workflow mapping and pain analysis
-- [ ] ICP, segmentation, TAM/SAM/SOM and competitor/substitute analysis
-- [ ] Assumption mapping, evidence ladder and validation experiments
-- [ ] Build / pivot / pause / reject decision framework
-- [ ] Worked examples with traceable evidence
+## Phase 1 — Opportunity intelligence (current)
+- [x] Problem signals and research methods
+- [x] Customer interview practice, ethical handling, synthesis and limits
+- [x] Jobs, workflow mapping, roles and pain analysis
+- [x] Segment definition, market sizing method and competitor/substitute analysis
+- [x] Assumptions, evidence quality, validation experiments and decision framework
+- [x] Hypothetical worked example with explicit limits
+- [ ] Independent review of all discovery guides and source links
+- [ ] Add a traceable, real case study only with consent and verifiable evidence
 
 ## Phase 2 — Product and design
 - [ ] Product brief, PRD and scope control
@@ -53,5 +55,12 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 - [ ] Problem-to-product architecture case studies
 - [ ] Stack combinations with cost and operational profiles
 
-## Phase 8 — Optional discovery tooling
+## Phase 8 — Editorial quality and navigation
+- [ ] Add audience-based paths for idea-stage, active-product and discipline-specific readers
+- [ ] Add review ownership, source freshness and update triggers for time-sensitive guidance
+- [ ] Add automated local-link, Markdown and metadata checks
+- [ ] Add contribution pull-request checklist and clear review workflow
+
+## Phase 9 — Optional discovery tooling
 Only after the documentation is useful and maintained: searchable catalogue, structured metadata, interactive decision trees, and an AI-assisted navigator that cites sources and exposes uncertainty.
+
