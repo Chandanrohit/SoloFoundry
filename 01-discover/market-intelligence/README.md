@@ -26,6 +26,5 @@ Competitor research is a map of alternatives and positioning at a point in time.
 
 ### References
 
-- [U.S. Small Business Administration, market research and competitive analysis](https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis): practical overview of market and competitor research for U.S. small businesses.
-- [U.S. Census Bureau, data.census.gov](https://data.census.gov/): primary source for U.S. population, business, and economic statistics; choose datasets and definitions that fit the question.
+- [U.S. Census Bureau, Economic Census data](https://www.census.gov/programs-surveys/economic-census/data.html): primary source for U.S. establishment, sales, payroll, and employment statistics; check dataset years, industry definitions, and geography before using a figure.
 
