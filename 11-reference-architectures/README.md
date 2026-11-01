@@ -1,5 +1,15 @@
 # Reference architectures
 
-Reference architectures are worked examples, not universal prescriptions. Each must include functional and non-functional requirements, assumptions, context diagram, component responsibilities, data flow, trust boundaries, failure modes, deployment topology, observability, cost drivers, scaling path, alternatives and decision records.
+**Maturity:** worked examples; none is a production-tested template.
 
-Planned examples: small multi-tenant SaaS; AI knowledge assistant with evaluated RAG; financial research and calculation system; event-driven inventory platform; privacy-conscious document processing.
+Reference architectures are worked teaching examples, not production templates. They show how requirements connect to data flow, trust boundaries, delivery, operations, and business constraints. Change them when your users, risk, or service promise differs.
+
+## Worked architecture
+
+- [Repair-shop appointment and waitlist service](repair-shop-appointments/README.md): a fictional small multi-tenant SaaS with a modular monolith, PostgreSQL, tenant isolation, notifications, privacy boundaries, deployment, and operating measures.
+
+## How to read or contribute an architecture
+
+Check the scenario assumptions first. Then inspect the requirements, context diagram, data lifecycle, component responsibilities, failure modes, security controls, rollout and recovery path, cost drivers, and rejected alternatives. Use the [architecture decision record](../templates/ARCHITECTURE_DECISION_RECORD.md) to adapt a decision to your own constraints.
+
+Examples are explicitly hypothetical. Cost figures are formulae and drivers rather than provider quotes; check current pricing and service limits before budgeting.

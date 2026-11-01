@@ -1,0 +1,44 @@
+:root {
+  --sf-charcoal: #171c25;
+  --sf-brass: #d69b55;
+  --sf-stone: #e9e2d6;
+  --sf-green: #617b70;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--sf-charcoal);
+  --md-primary-fg-color--dark: #10141b;
+  --md-accent-fg-color: var(--sf-brass);
+  --md-default-bg-color: #11161e;
+  --md-typeset-a-color: #e6b777;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--sf-charcoal);
+  --md-accent-fg-color: #9b642d;
+  --md-typeset-a-color: #80501e;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.md-typeset h1 {
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.4rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: color-mix(in srgb, var(--sf-brass) 18%, transparent);
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.6rem;
+}

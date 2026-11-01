@@ -1,0 +1,179 @@
+site_name: SoloFoundry
+site_description: Evidence-led guides for independent builders taking products from problem to operation.
+site_url: https://chandanrohit.github.io/SoloFoundry/
+repo_url: https://github.com/Chandanrohit/SoloFoundry
+repo_name: Chandanrohit/SoloFoundry
+edit_uri: edit/main/
+docs_dir: .
+site_dir: site
+strict: true
+use_directory_urls: true
+
+exclude_docs: |
+  /site/
+  /scripts/
+  /.github/
+  /mkdocs.yml
+  /requirements-docs.txt
+  /tests/
+
+theme:
+  name: material
+  language: en
+  logo: assets/brand/solofoundry-mark.svg
+  favicon: assets/brand/solofoundry-mark.svg
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+extra_css:
+  - assets/brand/site.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: README.md
+  - Start here:
+      - Foundations: 00-foundations/README.md
+      - Discover:
+          - Overview: 01-discover/README.md
+          - Problem discovery: 01-discover/problem-discovery/README.md
+          - Customer research: 01-discover/customer-research/README.md
+          - Jobs and workflows: 01-discover/jobs-and-workflows/README.md
+          - Market intelligence: 01-discover/market-intelligence/README.md
+          - Assumptions and evidence: 01-discover/assumptions-and-evidence/README.md
+          - Synthesis and decisions: 01-discover/synthesis-and-decisions/README.md
+          - Validation: 01-discover/validation/README.md
+          - Worked example: 01-discover/worked-example/README.md
+      - Design:
+          - Overview: 02-design/README.md
+          - Product brief and scope: 02-design/product-brief-and-scope/README.md
+          - Journeys and prototyping: 02-design/journeys-and-prototyping/README.md
+          - Usability research: 02-design/usability-research/README.md
+          - Accessible design systems: 02-design/accessible-content-and-design-systems/README.md
+  - Build:
+      - Engineering:
+          - Overview: 03-engineer/README.md
+          - Architecture: 03-engineer/architecture-and-modular-design/README.md
+          - Application and API design: 03-engineer/application-and-api-design/README.md
+          - Data and migrations: 03-engineer/data-modeling-and-migrations/README.md
+          - Testing and quality: 03-engineer/testing-and-software-quality/README.md
+          - Billing and integrations: 03-engineer/billing-and-service-integrations/README.md
+      - AI engineering:
+          - Overview: 04-ai/README.md
+          - Model patterns: 04-ai/model-backed-product-patterns/README.md
+          - Retrieval and grounded knowledge: 04-ai/retrieval-and-grounded-knowledge/README.md
+          - Tool-using workflows: 04-ai/tool-using-workflows/README.md
+          - Evaluation and operations: 04-ai/evaluation-and-production-operations/README.md
+          - RAG evaluation lab: 04-ai/labs/RAG_EVALUATION_LAB.md
+      - Security:
+          - Overview: 05-secure/README.md
+          - Secure product engineering: 05-secure/secure-product-engineering/README.md
+  - Ship and run:
+      - Deployment:
+          - Overview: 06-deploy/README.md
+          - Deployment and release: 06-deploy/deployment-and-release/README.md
+          - Deployment walkthrough: 06-deploy/labs/DEPLOYMENT_WALKTHROUGH.md
+      - Operations:
+          - Overview: 07-operate/README.md
+          - Reliability and recovery: 07-operate/reliability-and-recovery/README.md
+          - Incident tabletop: 07-operate/labs/INCIDENT_TABLETOP.md
+  - Grow a product:
+      - Growth:
+          - Overview: 08-grow/README.md
+          - Positioning and messaging: 08-grow/positioning-and-messaging/README.md
+          - Distribution and experiments: 08-grow/distribution-and-launch-experiments/README.md
+      - Business:
+          - Overview: 09-business/README.md
+          - Pricing and unit economics: 09-business/pricing-and-unit-economics/README.md
+          - Cash flow and controls: 09-business/cashflow-and-financial-controls/README.md
+          - Legal, privacy, contracts, and support: 09-business/legal-privacy-contracts-and-support/README.md
+  - Apply:
+      - Industry playbooks:
+          - Overview: 10-industry-playbooks/README.md
+          - FinTech: 10-industry-playbooks/fintech/README.md
+          - Healthcare: 10-industry-playbooks/healthcare/README.md
+          - LegalTech: 10-industry-playbooks/legaltech/README.md
+          - Manufacturing: 10-industry-playbooks/manufacturing/README.md
+          - Retail: 10-industry-playbooks/retail/README.md
+          - Education: 10-industry-playbooks/education/README.md
+      - Reference architecture:
+          - Overview: 11-reference-architectures/README.md
+          - Repair-shop appointments: 11-reference-architectures/repair-shop-appointments/README.md
+      - Stack combinations: 12-stack-combinations/README.md
+  - Templates:
+      - Guide template: templates/GUIDE_TEMPLATE.md
+      - Problem brief: templates/PROBLEM_BRIEF.md
+      - Customer interview: templates/CUSTOMER_INTERVIEW.md
+      - Opportunity assessment: templates/OPPORTUNITY_ASSESSMENT.md
+      - Experiment log: templates/EXPERIMENT_LOG.md
+      - Product brief: templates/PRODUCT_BRIEF.md
+      - Usability test plan: templates/USABILITY_TEST_PLAN.md
+      - Architecture decision record: templates/ARCHITECTURE_DECISION_RECORD.md
+      - Threat model: templates/THREAT_MODEL.md
+      - Stack comparison: templates/STACK_COMPARISON.md
+      - Launch checklist: templates/LAUNCH_CHECKLIST.md
+      - AI evaluation plan: templates/AI_EVALUATION_PLAN.md
+      - Growth experiment: templates/GROWTH_EXPERIMENT.md
+      - Pricing model: templates/PRICING_MODEL.md
+  - Project:
+      - Roadmap: ROADMAP.md
+      - Content status: CONTENT_STATUS.md
+      - Sources: resources/REFERENCE_INDEX.md
+      - Source freshness: resources/SOURCE_REGISTER.md
+      - Source evaluation policy: resources/SOURCE_EVALUATION.md
+      - Contributing: CONTRIBUTING.md
+      - Security: SECURITY.md
+      - Support: SUPPORT.md
+      - Code of conduct: CODE_OF_CONDUCT.md
+      - Licenses: LICENSES.md
+      - Brand: assets/brand/BRAND.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Chandanrohit/SoloFoundry
+      name: SoloFoundry on GitHub
+
+copyright: Copyright © SoloFoundry contributors · Documentation CC BY 4.0 · Code MIT
