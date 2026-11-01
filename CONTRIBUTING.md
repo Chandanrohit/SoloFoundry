@@ -45,7 +45,7 @@ Thank you for helping make independent product building more understandable and 
 
 Substantial guides should receive an editorial review before being described as `reviewed`. A `tested` label requires an executed walkthrough with environment, version, data boundary, steps, and observed result recorded. When a source, standard, provider API, legal rule, or market claim may change, add a dated source and a clear recheck trigger in `resources/SOURCE_REGISTER.json`.
 
-Use the repository [pull request template](.github/PULL_REQUEST_TEMPLATE.md). Please keep one coherent reader outcome per contribution; splitting unrelated changes makes technical and editorial review easier.
+Use the repository [pull request template](https://github.com/Chandanrohit/SoloFoundry/blob/main/.github/PULL_REQUEST_TEMPLATE.md). Please keep one coherent reader outcome per contribution; splitting unrelated changes makes technical and editorial review easier.
 
 The project aims to reply when maintainers are available; it has no service-level response promise. See [SUPPORT.md](SUPPORT.md), [SECURITY.md](SECURITY.md), and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 

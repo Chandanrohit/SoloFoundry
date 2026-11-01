@@ -19,7 +19,7 @@ PLACEHOLDER_MARKERS = ("{",)
 
 
 def markdown_files() -> list[Path]:
-    ignored = {".git", ".venv", "site", "node_modules", "__pycache__"}
+    ignored = {".git", ".docs-src", ".venv", "docs-src", "site", "node_modules", "__pycache__"}
     return [
         path
         for path in ROOT.rglob("*.md")

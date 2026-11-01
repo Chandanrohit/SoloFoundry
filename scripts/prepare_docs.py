@@ -8,11 +8,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DOCS_DIR = ROOT / ".docs-src"
+DOCS_DIR = ROOT / "docs-src"
 IGNORED = {
     ".git",
     ".github",
-    ".docs-src",
+    "docs-src",
     ".venv",
     "node_modules",
     "scripts",
