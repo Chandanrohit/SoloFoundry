@@ -18,6 +18,8 @@ Score each dimension from 1 (weak/unknown) to 5 (strong), and cite evidence. Do 
 ## Critical assumptions
 List assumptions that could invalidate the opportunity.
 
+For each assumption, note the evidence source and date, what is observed versus inferred, the affected user/buyer/context, confidence and limitations, and the next observation that could change your mind. Do not treat scores as probabilities or add them into a decision without reviewing critical constraints.
+
 ## Market estimate
 Show bottom-up TAM/SAM/SOM inputs, ranges, source dates and assumptions.
 
@@ -29,3 +31,8 @@ Show bottom-up TAM/SAM/SOM inputs, ranges, source dates and assumptions.
 - [ ] Reject
 
 **Rationale and next evidence required:**
+
+## Review trigger
+
+What new evidence, changed condition, or date will prompt reassessment?
+

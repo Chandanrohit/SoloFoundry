@@ -92,6 +92,14 @@ If you have an idea, begin with [Problem Discovery](01-discover/problem-discover
 
 If you already have a product, start with the relevant engineering, security, deployment or operations guide and work backwards to identify missing evidence.
 
+### Learning paths
+
+- **I have an idea:** follow [the opportunity discovery path](01-discover/README.md), from problem signals to a build, pivot, pause, or reject decision.
+- **I am shaping a product:** start with [Product Design](02-design/README.md), then work through engineering, security, deployment, and operations.
+- **I already have a product:** use the relevant lifecycle area as an audit path; check its status in [Content Status](CONTENT_STATUS.md) before treating an outline as a complete guide.
+
+SoloFoundry is being built in reviewable phases. A folder or planned topic is not evidence that a guide exists. The current phase and remaining lifecycle coverage are tracked in [the roadmap](ROADMAP.md) and [content status](CONTENT_STATUS.md).
+
 ## Contributing
 
 Contributions are welcome: corrections, tested examples, architecture diagrams, industry research, reference updates and better learning paths. Read [CONTRIBUTING.md](CONTRIBUTING.md) and the [source evaluation policy](resources/SOURCE_EVALUATION.md) first.
@@ -102,8 +110,9 @@ This is an evolving knowledge base. The initial repository foundation defines it
 
 ## License
 
-Original educational documentation is intended to use **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Original code examples and software assets are intended to use the **MIT License**. Third-party material remains under its own license; see [LICENSES.md](LICENSES.md). This split-license proposal must be finalized before public release.
+Original educational documentation and diagrams use **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Original code examples and software use the **MIT License** in [LICENSE](LICENSE). Third-party material remains under its own license; see [LICENSES.md](LICENSES.md).
 
 ---
 
 <div align="center"><sub>SoloFoundry · Learn the craft. Understand the systems. Build independently.</sub></div>
+
