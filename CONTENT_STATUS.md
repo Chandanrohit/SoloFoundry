@@ -14,9 +14,9 @@ This is an honest coverage register, not a claim that every listed topic is alre
 | Operations | User-centered indicators, observability, incident response, backup/restore, operating cadence, fictional data-isolation tabletop | Facilitated tabletop and tested restore drill | reviewed (method guide/tabletop; no incident or service recovery tested) |
 | Growth | Positioning, alternatives, proof-led messaging, channel choice, launch/search guidance, experiment template | Real user-reviewed positioning and measured channel experiment | reviewed (method guides; no real market experiment run) |
 | Business | Pricing/unit-economics, cash-flow/controls, legal/privacy/contracts/support guides, pricing worksheet | Buyer-tested price and jurisdiction-specific expert review | reviewed (method guides/templates; no real business model validated) |
-| Industry playbooks | Six starter domains | Evidence-backed case studies | planned |
-| Reference architectures | Scope and required contents only | First worked architecture with cost and operations | planned |
-| Stack combinations | Comparison criteria only | Scenario-specific maintained comparisons | planned |
+| Industry playbooks | Six domain guides covering workflow, user, risk, measures, and verification sources | Domain-expert review and real case studies with consent | reviewed (decision guides; no market or compliance assessment) |
+| Reference architectures | Fictional repair-shop appointment SaaS with requirements, diagram, tenancy, data, security, operations, cost drivers, and alternatives | Implemented and tested example with recorded environment | reviewed (hypothetical; not implemented) |
+| Stack combinations | Four workload profiles, decision matrix, cost drivers, adoption sequence, and study resources | Dated provider-specific comparisons for a real workload | reviewed (patterns; no vendor quotes or production test) |
 
 ## Interpreting status
 
@@ -26,4 +26,4 @@ This is an honest coverage register, not a claim that every listed topic is alre
 - The worked example in `01-discover/worked-example/` is hypothetical and must not be used as empirical evidence.
 - Versioned, legal, tax, regulatory, and market claims need dated source checks before readers rely on them.
 
-Update this file whenever a guide changes maturity. Phase 2 guide-level review is an editorial synthesis; no specific product or prototype has been tested. Phase 3 guides are also method syntheses, not tested implementations. Phases 4 and 5 are practical method guides with exercises and decision frameworks; no model integration, deployment, security assessment, tabletop facilitation, or restore drill has been executed. Phase 6 provides methods and worksheets; no real market experiment, price, legal review, or accounting outcome has been validated. Independent and expert reviews remain open where applicable.
+Update this file whenever a guide changes maturity. Phases 1–6 contain practical method guides, templates, and exercises; they do not represent independent review, real market validation, a tested AI integration/deployment/security assessment, an executed tabletop/restore drill, or jurisdiction-specific legal/accounting review. Phase 7 examples are fictional and have not been implemented or reviewed by industry experts. Phase 8–9 CI and site workflows are implemented in the repository; first GitHub Actions and Pages runs remain pending. The source register records dated primary references and their recheck triggers.

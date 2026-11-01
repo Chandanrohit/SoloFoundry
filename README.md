@@ -2,16 +2,25 @@
   <img src="assets/brand/solofoundry-logo.png" alt="SoloFoundry — anvil struck by a hammer, creating sparks" width="720">
   <h1>SoloFoundry</h1>
   <p><strong>Build with knowledge. Craft with purpose.</strong></p>
-  <p>An open-source workshop for independent builders.</p>
+  <p>An open-source workshop for independent builders, from first problem evidence to a product you can operate.</p>
 </div>
+
+<p align="center">
+  <a href="https://github.com/Chandanrohit/SoloFoundry/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Chandanrohit/SoloFoundry?style=for-the-badge&color=D69B55"></a>
+  <a href="https://github.com/Chandanrohit/SoloFoundry/actions/workflows/docs-check.yml"><img alt="Documentation checks" src="https://img.shields.io/github/actions/workflow/status/Chandanrohit/SoloFoundry/docs-check.yml?branch=main&label=docs%20checks&style=for-the-badge"></a>
+  <a href="https://github.com/Chandanrohit/SoloFoundry/blob/main/LICENSES.md"><img alt="Documentation license: CC BY 4.0" src="https://img.shields.io/badge/docs-CC%20BY%204.0-617B70?style=for-the-badge"></a>
+  <a href="https://github.com/Chandanrohit/SoloFoundry/blob/main/LICENSE"><img alt="Code license: MIT" src="https://img.shields.io/badge/code-MIT-171C25?style=for-the-badge"></a>
+</p>
+
+<p align="center"><a href="#start-here">Choose a learning path</a> · <a href="ROADMAP.md">Roadmap</a> · <a href="CONTRIBUTING.md">Contribute</a> · <a href="CODE_OF_CONDUCT.md">Community standards</a></p>
 
 ---
 
 ## What is SoloFoundry?
 
-SoloFoundry is a documentation-first, open-source knowledge system for people who want to take a product from an observed problem to a useful, secure, sustainable product. It connects product discovery, market evidence, design, software and AI engineering, security, deployment, operations, distribution, and business fundamentals.
+SoloFoundry is a documentation-first, open-source workshop for independent developers and small teams who want to take a product from an observed problem to a useful, secure, sustainable product. It connects discovery, design, engineering, AI, security, deployment, operations, growth, and business fundamentals.
 
-It is not a boilerplate, a tool directory, or a promise that one person should become an expert in every discipline. It helps an independent builder make informed decisions, use tools effectively, recognize risks, and know when specialist help is necessary.
+It is not a boilerplate, a tool directory, or a promise that one person should become an expert in every discipline. It helps builders make informed decisions, study authoritative resources, practice with reusable templates, recognize risks, and know when specialist help is needed.
 
 ## The product-building journey
 
@@ -97,16 +106,21 @@ If you already have a product, start with the relevant engineering, security, de
 - **I have an idea:** follow [the opportunity discovery path](01-discover/README.md), from problem signals to a build, pivot, pause, or reject decision.
 - **I am shaping a product:** start with [Product Design](02-design/README.md), then work through engineering, security, deployment, and operations.
 - **I already have a product:** use the relevant lifecycle area as an audit path; check its status in [Content Status](CONTENT_STATUS.md) before treating an outline as a complete guide.
+- **I build for a specific industry:** use the [industry playbooks](10-industry-playbooks/README.md) to surface role, data, safety, adoption, and compliance questions before choosing a stack.
+- **I need to choose an architecture or stack:** read the [worked reference architecture](11-reference-architectures/repair-shop-appointments/README.md) alongside [stack combinations](12-stack-combinations/README.md).
+- **I am preparing to launch or charge:** work through [growth](08-grow/README.md) and [business](09-business/README.md), then validate assumptions with real users and local specialists.
 
 SoloFoundry is being built in reviewable phases. A folder or planned topic is not evidence that a guide exists. The current phase and remaining lifecycle coverage are tracked in [the roadmap](ROADMAP.md) and [content status](CONTENT_STATUS.md).
 
 ## Contributing
 
-Contributions are welcome: corrections, tested examples, architecture diagrams, industry research, reference updates and better learning paths. Read [CONTRIBUTING.md](CONTRIBUTING.md) and the [source evaluation policy](resources/SOURCE_EVALUATION.md) first.
+Contributions are welcome: corrections, tested examples, architecture diagrams, industry research, reference updates and better learning paths. Read [CONTRIBUTING.md](CONTRIBUTING.md), the [source evaluation policy](resources/SOURCE_EVALUATION.md), and the [community code of conduct](CODE_OF_CONDUCT.md) first.
 
 ## Status and roadmap
 
-This is an evolving knowledge base. The initial repository foundation defines its information architecture, templates, editorial rules and first discovery workflows. See [ROADMAP.md](ROADMAP.md) for staged delivery and [CONTENT_STATUS.md](CONTENT_STATUS.md) for coverage tracking.
+This is an evolving knowledge base with lifecycle guides, practice labs, industry playbooks, a worked reference architecture, and searchable documentation-site configuration. See [ROADMAP.md](ROADMAP.md) for delivery and maintenance gates and [CONTENT_STATUS.md](CONTENT_STATUS.md) for coverage and validation limits. No guide implies real-world demand, compliance, or production readiness unless evidence is explicitly documented.
+
+If this workshop helps you build or teach, consider [starring the repository](https://github.com/Chandanrohit/SoloFoundry). A star is useful as a discovery signal; it is not evidence that a method or product has been validated.
 
 ## License
 

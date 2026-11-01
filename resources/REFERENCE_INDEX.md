@@ -22,3 +22,5 @@ These are starting points for research, not endorsements or a substitute for eva
 
 ## Evaluation note
 These references were identified during the initial repository landscape review. Re-check maintenance, scope, license and source quality before adopting ideas or incorporating any content.
+
+For dated references and recheck triggers used in security, business, industry, and search guides, see the [source freshness register](SOURCE_REGISTER.md).

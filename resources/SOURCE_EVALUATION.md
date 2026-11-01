@@ -15,3 +15,5 @@ Stars and forks are discovery signals, not proof of quality. A repository may be
 
 ## Citation record
 Record title, author/maintainer, URL, source type, publication/release date, date checked, license, relevant claim and limitations. Prefer linking rather than copying.
+
+For sources that support version-sensitive, legal, regulatory, security, or market guidance, record scope and a recheck trigger in the [source freshness register](SOURCE_REGISTER.md) and its [machine-readable catalog](SOURCE_REGISTER.json). Recheck primary references before reusing a claim in a new jurisdiction or product.

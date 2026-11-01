@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "maintainer": "SoloFoundry maintainers",
+  "sources": [
+    {
+      "key": "nist-ai-rmf",
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "scope": "Risk management framework; not product certification.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "NIST publishes a revision or guide adopts specific controls."
+    },
+    {
+      "key": "nist-genai-profile",
+      "title": "NIST Generative AI Profile (AI 600-1)",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "scope": "Cross-sector generative AI risk guidance; the AI RMF is under revision.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "NIST revises the AI RMF or publishes a new GenAI profile."
+    },
+    {
+      "key": "owasp-genai",
+      "title": "OWASP GenAI Security Project",
+      "url": "https://genai.owasp.org/",
+      "scope": "Threat and mitigation references; use a dated edition and verify current publication status.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "OWASP publishes a new list or the AI threat guidance is changed."
+    },
+    {
+      "key": "owasp-asvs",
+      "title": "OWASP Application Security Verification Standard",
+      "url": "https://asvs.owasp.org/",
+      "scope": "Application security verification requirements; select requirements by product risk.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "A new ASVS version is announced or guide cites a requirement number."
+    },
+    {
+      "key": "nist-ssdf",
+      "title": "NIST SP 800-218 Secure Software Development Framework",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/final",
+      "scope": "Secure development practices; confirm current revision before policy use.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "NIST posts a draft/final revision or examples cite a control."
+    },
+    {
+      "key": "nist-ot-security",
+      "title": "NIST SP 800-82 Operational Technology Security",
+      "url": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+      "scope": "OT security guidance; Rev. 4 draft status noted in September 2026.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "NIST releases a new draft/final or before adopting an edition as policy."
+    },
+    {
+      "key": "hhs-hipaa-cloud",
+      "title": "HHS Guidance on HIPAA and Cloud Computing",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html",
+      "scope": "U.S. HIPAA contexts; not an applicability determination.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "HHS updates guidance or an example discusses provider obligations."
+    },
+    {
+      "key": "cfpb-data-rights",
+      "title": "CFPB Personal Financial Data Rights resource",
+      "url": "https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/personal-financial-data-rights/",
+      "scope": "U.S.-specific regulatory resource; check current rule and litigation status.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "CFPB or courts update rule status; before any implementation decision."
+    },
+    {
+      "key": "pci-ssc-library",
+      "title": "PCI Security Standards Council document library",
+      "url": "https://www.pcisecuritystandards.org/document_library/",
+      "scope": "Payment-card standards and documents; applicability depends on the payment environment.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "Before a product touches account data or describes a validation path."
+    },
+    {
+      "key": "aba-rule-1-6",
+      "title": "ABA Model Rule 1.6: Confidentiality of Information",
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "scope": "U.S. model rule; verify local adoption and rules.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "ABA revises the model rule or a guide makes a jurisdiction-specific claim."
+    },
+    {
+      "key": "us-ed-student-privacy",
+      "title": "U.S. Department of Education Student Privacy Resource Center",
+      "url": "https://studentprivacy.ed.gov/resources",
+      "scope": "U.S. education privacy resources, including FERPA guidance.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "Department publishes updated guidance or a product handles student records."
+    },
+    {
+      "key": "eu-gdpr-business",
+      "title": "Your Europe: Data protection under GDPR",
+      "url": "https://europa.eu/youreurope/business/governance-and-sustainability/digital-and-data-compliance/data-protection-gdpr/index_en.htm",
+      "scope": "EU business overview; assess applicability and national rules.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "EU guidance or legislation changes or a product enters an EU market."
+    },
+    {
+      "key": "ftc-advertising",
+      "title": "FTC Advertising and Marketing",
+      "url": "https://www.ftc.gov/business-guidance/advertising-marketing",
+      "scope": "U.S. truth-in-advertising and endorsement guidance.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "FTC updates guidance/rules or marketing claims/testimonials are discussed."
+    },
+    {
+      "key": "google-search-essentials",
+      "title": "Google Search Essentials",
+      "url": "https://developers.google.com/search/docs/essentials",
+      "scope": "Google Search eligibility and quality guidance; no ranking guarantee.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "Google updates Search Essentials or AI-search guidance."
+    },
+    {
+      "key": "google-ai-search",
+      "title": "Google guidance on optimizing for generative AI search features",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "scope": "Google-specific search guidance; not a universal discovery standard.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "Google changes this guide or the growth guide mentions GEO/AEO tactics."
+    },
+    {
+      "key": "sba-plan-business",
+      "title": "U.S. Small Business Administration: Plan your business",
+      "url": "https://www.sba.gov/counseling/plan-your-business/",
+      "scope": "U.S. small-business research, startup cost, and planning resources.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "SBA moves or revises resources cited by pricing/market guides."
+    },
+    {
+      "key": "sba-manage-business",
+      "title": "U.S. Small Business Administration: Manage your business",
+      "url": "https://www.sba.gov/counseling/manage-your-business/",
+      "scope": "U.S. bookkeeping, finance, and compliance starting points.",
+      "last_checked": "2026-11-01",
+      "recheck_when": "SBA moves or revises resources cited by the cash-flow guide."
+    }
+  ]
+}

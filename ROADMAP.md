@@ -1,13 +1,14 @@
 # SoloFoundry roadmap
 
-The roadmap prioritizes a useful, trustworthy knowledge base over premature software or AI features. A phase is complete when its deliverables are usable and reviewed—not merely when folders exist.
+The roadmap prioritizes a useful, trustworthy knowledge base over premature software or AI features. A phase is content-complete when its reader-facing deliverables, navigation, and maintenance notes exist. Real market validation, independent expert review, provider-specific execution, and restore drills remain evidence gates; they must never be marked complete without the relevant people and systems.
 
 ## Phase 0 — Repository and editorial baseline
 - [x] Mission, principles, lifecycle map and information architecture
 - [x] Guide template, contribution process and source-evaluation policy
 - [x] Resolve project license split: educational text and diagrams CC BY 4.0; code MIT
 - [x] Add reader paths and explicitly distinguish topic maps from complete guides
-- [ ] Publish vector/source logo variants and confirm asset provenance
+- [x] Add an editable vector mark and document its provenance and license
+- [ ] Locate/edit source and confirm provenance for the legacy PNG renders
 - [ ] Decide whether to add a generated website or keep GitHub as the primary reader experience
 
 ## Phase 1 — Opportunity intelligence
@@ -59,16 +60,29 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 - [x] Reusable growth experiment and pricing model templates
 - [ ] Independent review; real buyer-tested pricing/positioning case study; jurisdiction-specific expert review
 
-## Phase 7 — Industry playbooks and integrated examples
-- [ ] FinTech, healthcare, legal, manufacturing, retail and education
-- [ ] Problem-to-product architecture case studies
-- [ ] Stack combinations with cost and operational profiles
+## Phase 7 — Industry playbooks and integrated examples (content complete)
+- [x] FinTech, healthcare, legal, manufacturing, retail and education decision guides
+- [x] End-to-end fictional repair-shop appointment SaaS architecture with data, security, operations, and cost drivers
+- [x] Stack profiles with fit, avoid-when, cost drivers, trade-offs, and growth sequence
+- [ ] Domain-expert review and real case studies with consent and verifiable evidence
 
-## Phase 8 — Editorial quality and navigation
-- [ ] Add audience-based paths for idea-stage, active-product and discipline-specific readers
-- [ ] Add review ownership, source freshness and update triggers for time-sensitive guidance
-- [ ] Add automated local-link, Markdown and metadata checks
-- [ ] Add contribution pull-request checklist and clear review workflow
+## Phase 8 — Editorial quality and navigation (implemented; first CI run pending)
+- [x] Audience-based paths for idea-stage, active-product, and discipline-specific readers
+- [x] Source register with scope, last-checked date, maintainer, and recheck triggers
+- [x] Automated relative-link, source-metadata, and strict site-build checks
+- [x] Contribution PR template, review expectations, support, security, and community policies
+- [ ] Review workflow results and address any CI issues after first branch run
 
-## Phase 9 — Optional discovery tooling
-Only after the documentation is useful and maintained: searchable catalogue, structured metadata, interactive decision trees, and an AI-assisted navigator that cites sources and exposes uncertainty.
+## Phase 9 — Discovery tooling (content search complete; AI assistant deferred)
+- [x] Searchable static documentation site with structured navigation and local search
+- [x] GitHub Pages build/deploy workflows and dependency update automation
+- [x] Source metadata register validated by CI
+- [x] Defer AI-assisted navigation until reader demand, source maintenance, and citation evaluation justify its operating risk
+- [ ] Enable GitHub Pages with the Actions publishing source and confirm first deployment
+
+## Ongoing evidence gates
+
+- Independent technical/editorial review of Phases 1–6.
+- Real user/buyer validation, product/user testing, tested implementations, and restore drills.
+- Qualified jurisdiction-specific review for legal, tax, privacy, healthcare, legal-tech, and financial guidance.
+- Verify original provenance/source files for legacy raster brand assets.

@@ -17,6 +17,7 @@ Third-party material retains its own license and terms. A reference link does no
 | Asset | Creator/source | License and attribution | Notes |
 |---|---|---|---|
 | `assets/brand/solofoundry-logo.png`, `assets/brand/solofoundry-anvil-icon.png`, `assets/brand/github-avatar.png` | SoloFoundry project | CC BY 4.0 | Original project assets; editable source files are not currently included. |
+| `assets/brand/solofoundry-mark.svg` | SoloFoundry contributors | CC BY 4.0 | Editable vector anvil/hammer mark authored in this repository on 2026-11-01; not the editable source for the older PNG renders. |
 
 ## Attribution
 
