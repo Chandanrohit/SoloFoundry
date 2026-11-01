@@ -30,5 +30,5 @@ Write a concise job statement and workflow map, then list the observed friction,
 ### References
 
 - [Strategyzer, value proposition and jobs-to-be-done overview](https://www.strategyzer.com/library/the-value-proposition-canvas): a practitioner framework for relating customer jobs, pains, and gains to a value proposition. Use it as a synthesis aid, not as evidence that a segment exists.
-- [U.S. Office of Personnel Management, journey mapping](https://www.opm.gov/policy-data-oversight/human-capital-management/reference-materials/enterprise-human-resources-integration/customer-experience/journey-mapping/): public-sector method reference for representing experiences and touchpoints.
+- [GOV.UK Service Manual, map and understand a user's whole problem](https://www.gov.uk/service-manual/design/map-a-users-whole-problem): public-sector guidance on understanding a user's wider journey and how service touchpoints fit together.
 
