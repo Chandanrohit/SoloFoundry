@@ -20,18 +20,19 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 - [ ] Independent review of all discovery guides and source links
 - [ ] Add a traceable, real case study only with consent and verifiable evidence
 
-## Phase 2 — Product and design (current)
+## Phase 2 — Product and design
 - [x] Product brief, PRD framing and scope control
 - [x] User journeys, information architecture and prototyping
 - [x] UX research and usability testing
 - [x] Accessibility, design systems and content design
 - [ ] Independent editorial review and a user-tested product case study
 
-## Phase 3 — Core product engineering
-- [ ] Frontend, backend, API and database fundamentals
-- [ ] Architecture styles and decision criteria
-- [ ] Testing, performance, reliability and maintainability
-- [ ] Authentication, authorization, billing and integrations
+## Phase 3 — Core product engineering (current)
+- [x] Frontend/backend boundaries, API contracts, and database fundamentals
+- [x] Architecture styles and decision criteria
+- [x] Testing, performance, reliability, and maintainability foundations
+- [x] Authentication/authorization boundaries, billing concepts, and integrations
+- [ ] Independent editorial review and framework-specific tested examples
 
 ## Phase 4 — AI engineering
 - [ ] LLM application patterns and model selection
