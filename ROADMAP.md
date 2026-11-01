@@ -47,13 +47,17 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 - [x] Deployment-shape decisions, release pipeline, migration, rollback, and CI security
 - [x] Service indicators, observability, incident handling, backup and restore concepts
 - [x] Solo-friendly operating cadence and recovery priorities
+- [x] Provider-neutral deployment walkthrough and data-isolation incident tabletop exercises
 - [ ] Independent review, provider-specific tested walkthroughs, and a restore tabletop
 
-## Phase 6 — Business and growth
-- [ ] Positioning, messaging, content and SEO/GEO
-- [ ] Distribution, launch and growth experiments
-- [ ] Pricing, unit economics, cash flow and business models
-- [ ] Legal, privacy, contracts and customer support basics
+## Phase 6 — Business and growth (guide set drafted; real market and jurisdiction reviews remain)
+- [x] Positioning hypothesis, alternatives, proof-led messaging, and claim substantiation
+- [x] Channel selection, small launch experiments, readiness, and search/content fundamentals
+- [x] Pricing research, packaging, contribution, break-even, and uncertainty-aware unit economics
+- [x] Cash-flow tracking, runway scenarios, lightweight controls, and jurisdiction-aware tax framing
+- [x] Legal/privacy issue map, contracts/IP considerations, marketing/email basics, and support operations
+- [x] Reusable growth experiment and pricing model templates
+- [ ] Independent review; real buyer-tested pricing/positioning case study; jurisdiction-specific expert review
 
 ## Phase 7 — Industry playbooks and integrated examples
 - [ ] FinTech, healthcare, legal, manufacturing, retail and education
