@@ -10,7 +10,7 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 - [ ] Publish vector/source logo variants and confirm asset provenance
 - [ ] Decide whether to add a generated website or keep GitHub as the primary reader experience
 
-## Phase 1 — Opportunity intelligence (current)
+## Phase 1 — Opportunity intelligence
 - [x] Problem signals and research methods
 - [x] Customer interview practice, ethical handling, synthesis and limits
 - [x] Jobs, workflow mapping, roles and pain analysis
@@ -20,11 +20,12 @@ The roadmap prioritizes a useful, trustworthy knowledge base over premature soft
 - [ ] Independent review of all discovery guides and source links
 - [ ] Add a traceable, real case study only with consent and verifiable evidence
 
-## Phase 2 — Product and design
-- [ ] Product brief, PRD and scope control
-- [ ] User journeys, information architecture and prototyping
-- [ ] UX research, usability testing and accessibility
-- [ ] Design systems and content design
+## Phase 2 — Product and design (current)
+- [x] Product brief, PRD framing and scope control
+- [x] User journeys, information architecture and prototyping
+- [x] UX research and usability testing
+- [x] Accessibility, design systems and content design
+- [ ] Independent editorial review and a user-tested product case study
 
 ## Phase 3 — Core product engineering
 - [ ] Frontend, backend, API and database fundamentals
