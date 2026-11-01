@@ -7,7 +7,7 @@ Product design turns evidence about a problem into an outcome people can underst
 ## A practical learning path
 
 1. [Product brief and scope](product-brief-and-scope/README.md): define the user, outcome, evidence, constraints, and smallest useful release.
-2. [Journeys and prototypes](journeys-and-prototypes/README.md): map the whole task, decide where software fits, and prototype the riskiest workflow.
+2. [Journeys and prototypes](journeys-and-prototyping/README.md): map the whole task, decide where software fits, and prototype the riskiest workflow.
 3. [Usability research](usability-research/README.md): test representative tasks, observe friction, and turn findings into changes.
 4. [Accessible content and design systems](accessible-content-and-design-systems/README.md): make interaction, language, and reusable patterns work for more people.
 
