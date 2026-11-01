@@ -3,6 +3,8 @@
 Thumbs.db
 .vscode/
 .idea/
+.docs-src/
+site/
 
 # Local scratch files
 *.tmp

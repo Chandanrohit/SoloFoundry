@@ -27,5 +27,7 @@ jobs:
         run: python -m pip install -r requirements-docs.txt
       - name: Check local links and source metadata
         run: python scripts/check_docs.py
+      - name: Prepare the documentation source tree
+        run: python scripts/prepare_docs.py
       - name: Build the site with strict warnings
         run: mkdocs build --strict

@@ -4,7 +4,7 @@ site_url: https://chandanrohit.github.io/SoloFoundry/
 repo_url: https://github.com/Chandanrohit/SoloFoundry
 repo_name: Chandanrohit/SoloFoundry
 edit_uri: edit/main/
-docs_dir: .
+docs_dir: .docs-src
 site_dir: site
 strict: true
 use_directory_urls: true
@@ -13,8 +13,6 @@ exclude_docs: |
   /site/
   /scripts/
   /.github/
-  /mkdocs.yml
-  /requirements-docs.txt
   /tests/
 
 theme:
@@ -49,7 +47,10 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
+
+validation:
+  nav:
+    omitted_files: ignore
 extra_css:
   - assets/brand/site.css
 
