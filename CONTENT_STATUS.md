@@ -6,7 +6,7 @@ This is an honest coverage register, not a claim that every listed topic is alre
 |---|---|---|---|
 | Foundations | Principles, lifecycle and reader entry points | Learning paths and decision literacy | reviewed |
 | Opportunity intelligence | Discovery sequence, interview/workflow methods, market analysis, evidence and experiments | Independent content review and evidence-backed case study | reviewed (guides; no real market findings) |
-| Product and design | Domain map | PRD, UX and accessibility guides | planned |
+| Product and design | Scope and product brief, journeys/prototypes, usability research, accessible content/design-system guidance; two templates | Independent editorial review and product-specific user testing | reviewed (method guides; no product has been tested) |
 | Engineering | Domain map | Architecture and stack decision guides | planned |
 | AI engineering | Domain map | RAG and evaluation reference implementation | planned |
 | Security | Domain map | Threat-model and secure-release playbooks | planned |
@@ -26,5 +26,5 @@ This is an honest coverage register, not a claim that every listed topic is alre
 - The worked example in `01-discover/worked-example/` is hypothetical and must not be used as empirical evidence.
 - Versioned, legal, tax, regulatory, and market claims need dated source checks before readers rely on them.
 
-Update this file whenever a guide changes maturity.
+Update this file whenever a guide changes maturity. Phase 2 guide-level review is complete as an editorial synthesis; no specific product or prototype has been tested, and independent editorial review remains open.
 
